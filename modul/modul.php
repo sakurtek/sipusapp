@@ -2,26 +2,23 @@
 
 require_once "define.php";
 
-/*! 
+/* 
 	Revisi modul dengan menggunakan konsep MODULAR 
 	setiap masalah dipecah menjadi bagian - bagian yang lebih kecil
 	atau yang di kenal dengan nama subrutin
 	modifkasi oleh Stendy B. Sakur (Politeknik Negeri Nusa Utara)
-*/
 
-/*
-		fungsi untuk membuat koneksi 
-		ke database mysql
-		dengan menggunakan fungsi MySQLi 	
+	fungsi untuk membuat koneksi ke database mysql
+	dengan menggunakan fungsi MySQLi 	
 		
-		untuk membuat koneksi dengan database 
-		komponen terdiri dari:
-		hostname	: localhost / 127.0.0.1
-		username	: masukkan username dari database
-		password	: password  database
-		port		: masukkan port biasanya 3306
-		database	: masukkan nama database
-	*/
+	untuk membuat koneksi dengan database 
+	komponen terdiri dari:
+	hostname	: localhost / 127.0.0.1
+	username	: masukkan username dari database
+	password	: password  database
+	port		: masukkan port biasanya 3306
+	database	: masukkan nama database
+*/
 
 function getConnection() 
 {
