@@ -14,14 +14,6 @@
 			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormInputAnggota">Tambah Anggota</button>
 			
 			<div class="btn-group">
-				<!--
-				<a href="index.php?p=anggota-input" class="btn btn-primary">Tambah Anggota</a>
-				-->
-				<!-- BUAT MENU FLOAT -->
-				
-			</div>
-
-			<div class="btn-group">
 				<a href="pages/cetak.php" target="_blank" class="btn btn-primary">Cetak Anggota
 				</a>
 			</div>

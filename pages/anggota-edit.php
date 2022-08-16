@@ -13,6 +13,8 @@ extract(getUserForUpdate($_GET));
 	<div class="form-group">
 		<img src="foto/<?php echo $foto; ?>" class="rounded-circle" width=70px height=75px>
 		<hr class="my-4">
+		<label for="foto">Pilih Foto yang akan dipakai:</label>
+		<br />
 		<input type="file" name="foto">
 		<input type="hidden" name="foto_awal" value="<?php echo $foto; ?>">
 	</div>

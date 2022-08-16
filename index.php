@@ -11,11 +11,12 @@ getErrorLogin();
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="plugin/bootstrap-5.2.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="plugin/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+	<script src="plugin/jquery-3.5.1.min.js"></script>
 </head>
 
 <body style="background-color:#343A40;">
 	<!-- HEADER -->
-	<div class="jumbotron bg-dark text-white mt-4 p-4" style="margin-top:0">
+	<div class="jumbotron bg-dark text-white mt-4 p-5 style="margin-top:0">
 		<h1>Perpustakkan Umum</h1>
 		<p>Jl. Lembah Abang No 11, Telp: (021)55555555</p>
 	</div>
@@ -30,7 +31,7 @@ getErrorLogin();
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 		<!-- brand -->
 		<a class="navbar-brand" href="#">
-			<img src="images/logo-perpustakaan3.png" style="width:50px;padding-left:15px;" class="rounded-pill" />
+			<img src="images/logo.jpeg" style="width:60px; padding-left:15px;"/>
 		</a>
 
 		<!-- TAMPIL DATA KOTAK / HUMBERGER  -->

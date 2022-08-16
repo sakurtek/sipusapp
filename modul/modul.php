@@ -271,6 +271,11 @@ function getTampilAnggotaRev($pg, $req)
 	}
 }
 
+function tampilDataBuku ()
+{
+	// buat koding untuk menampilajn databuku
+}
+
 function getLayoutPrint ()
 {	
 	$nomor	= 1;
