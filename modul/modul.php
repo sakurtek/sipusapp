@@ -8,7 +8,6 @@ require_once "define.php";
 	atau yang di kenal dengan nama subrutin
 	modifkasi oleh Stendy B. Sakur (Politeknik Negeri Nusa Utara)
 
-	git
 	fungsi untuk membuat koneksi ke database mysql
 	dengan menggunakan fungsi MySQLi 	
 	untuk membuat koneksi dengan database 
